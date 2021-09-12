@@ -3,7 +3,7 @@
     "icon": {
       "color": "orange",
       "style": "float",
-      "name": "tina"
+      "name": "aperture"
     },
     "color": "default",
     "nav": [
@@ -12,12 +12,36 @@
         "label": "Home"
       },
       {
+        "href": "feed",
+        "label": "Feed"
+      },
+      {
+        "href": "chicken-eggs",
+        "label": "Chicken & Eggs"
+      },
+      {
+        "href": "grain",
+        "label": "Grain"
+      },
+      {
+        "href": "services",
+        "label": "Services"
+      },
+      {
         "href": "about",
         "label": "About"
       },
       {
         "href": "posts",
         "label": "Blog"
+      },
+      {
+        "href": "contact",
+        "label": "Contact"
+      },
+      {
+        "href": "buy",
+        "label": "Buy"
       }
     ]
   },
@@ -30,9 +54,9 @@
     }
   },
   "theme": {
-    "color": "blue",
-    "font": "sans",
+    "color": "red",
+    "font": "lato",
     "icon": "boxicon",
-    "darkMode": "system"
+    "darkMode": "light"
   }
 }

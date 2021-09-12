@@ -579,6 +579,10 @@ export default defineSchema({
                   value: "nunito",
                 },
                 {
+                  label: "Merriweather",
+                  value: "merriweather",
+                },
+                {
                   label: "Lato",
                   value: "lato",
                 },
