@@ -90,6 +90,7 @@
     "resolveType": "unionData",
     "typeMap": {
       "hero": "PagesBlocksHero",
+      "hero2": "PagesBlocksHero2",
       "features": "PagesBlocksFeatures",
       "content": "PagesBlocksContent",
       "testimonial": "PagesBlocksTestimonial"

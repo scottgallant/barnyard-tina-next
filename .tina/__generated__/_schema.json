@@ -789,6 +789,202 @@
               ]
             },
             {
+              "name": "hero2",
+              "label": "Hero2",
+              "ui": {
+                "defaultItem": {
+                  "tagline": "Here's some text above the other text",
+                  "headline": "This Big Text is Totally Awesome",
+                  "text": "Phasellus scelerisque, libero eu finibus rutrum, risus risus accumsan libero, nec molestie urna dui a leo."
+                }
+              },
+              "fields": [
+                {
+                  "type": "string",
+                  "label": "Tagline",
+                  "name": "tagline",
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "hero2",
+                    "tagline"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Headline",
+                  "name": "headline",
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "hero2",
+                    "headline"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Text",
+                  "name": "text",
+                  "ui": {
+                    "component": "markdown"
+                  },
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "hero2",
+                    "text"
+                  ]
+                },
+                {
+                  "label": "Actions",
+                  "name": "actions",
+                  "type": "object",
+                  "list": true,
+                  "ui": {
+                    "defaultItem": {
+                      "label": "Action Label",
+                      "type": "button",
+                      "icon": true,
+                      "link": "/"
+                    }
+                  },
+                  "fields": [
+                    {
+                      "label": "Label",
+                      "name": "label",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "hero2",
+                        "actions",
+                        "label"
+                      ]
+                    },
+                    {
+                      "label": "Type",
+                      "name": "type",
+                      "type": "string",
+                      "options": [
+                        {
+                          "label": "Button",
+                          "value": "button"
+                        },
+                        {
+                          "label": "Link",
+                          "value": "link"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "hero2",
+                        "actions",
+                        "type"
+                      ]
+                    },
+                    {
+                      "label": "Icon",
+                      "name": "icon",
+                      "type": "boolean",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "hero2",
+                        "actions",
+                        "icon"
+                      ]
+                    },
+                    {
+                      "label": "Link",
+                      "name": "link",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "hero2",
+                        "actions",
+                        "link"
+                      ]
+                    }
+                  ],
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "hero2",
+                    "actions"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "label": "Image",
+                  "name": "image",
+                  "fields": [
+                    {
+                      "name": "src",
+                      "label": "Image Source",
+                      "type": "image",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "hero2",
+                        "image",
+                        "src"
+                      ]
+                    },
+                    {
+                      "name": "alt",
+                      "label": "Alt Text",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "hero2",
+                        "image",
+                        "alt"
+                      ]
+                    }
+                  ],
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "hero2",
+                    "image"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Color",
+                  "name": "color",
+                  "options": [
+                    {
+                      "label": "Default",
+                      "value": "default"
+                    },
+                    {
+                      "label": "Tint",
+                      "value": "tint"
+                    },
+                    {
+                      "label": "Primary",
+                      "value": "primary"
+                    }
+                  ],
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "hero2",
+                    "color"
+                  ]
+                }
+              ],
+              "namespace": [
+                "pages",
+                "blocks",
+                "hero2"
+              ]
+            },
+            {
               "name": "features",
               "label": "Features",
               "ui": {

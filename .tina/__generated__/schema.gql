@@ -219,6 +219,27 @@ type PagesBlocksHero {
   color: String
 }
 
+type PagesBlocksHero2Actions {
+  label: String
+  type: String
+  icon: Boolean
+  link: String
+}
+
+type PagesBlocksHero2Image {
+  src: String
+  alt: String
+}
+
+type PagesBlocksHero2 {
+  tagline: String
+  headline: String
+  text: String
+  actions: [PagesBlocksHero2Actions]
+  image: PagesBlocksHero2Image
+  color: String
+}
+
 type PagesBlocksFeaturesItemsIcon {
   color: String
   style: String
@@ -247,7 +268,7 @@ type PagesBlocksTestimonial {
   color: String
 }
 
-union PagesBlocks = PagesBlocksHero | PagesBlocksFeatures | PagesBlocksContent | PagesBlocksTestimonial
+union PagesBlocks = PagesBlocksHero | PagesBlocksHero2 | PagesBlocksFeatures | PagesBlocksContent | PagesBlocksTestimonial
 
 type Pages {
   blocks: [PagesBlocks]
@@ -366,6 +387,27 @@ input PagesBlocksHeroMutation {
   color: String
 }
 
+input PagesBlocksHero2ActionsMutation {
+  label: String
+  type: String
+  icon: Boolean
+  link: String
+}
+
+input PagesBlocksHero2ImageMutation {
+  src: String
+  alt: String
+}
+
+input PagesBlocksHero2Mutation {
+  tagline: String
+  headline: String
+  text: String
+  actions: [PagesBlocksHero2ActionsMutation]
+  image: PagesBlocksHero2ImageMutation
+  color: String
+}
+
 input PagesBlocksFeaturesItemsIconMutation {
   color: String
   style: String
@@ -396,6 +438,7 @@ input PagesBlocksTestimonialMutation {
 
 input PagesBlocksMutation {
   hero: PagesBlocksHeroMutation
+  hero2: PagesBlocksHero2Mutation
   features: PagesBlocksFeaturesMutation
   content: PagesBlocksContentMutation
   testimonial: PagesBlocksTestimonialMutation

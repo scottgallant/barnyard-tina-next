@@ -1,5 +1,15 @@
 ---
 blocks:
+  - tagline: Here's some text above the other text
+    headline: This Big Text is Totally Awesome
+    text: >-
+      Phasellus scelerisque, libero eu finibus rutrum, risus risus accumsan
+      libero, nec molestie urna dui a leo.
+    image:
+      src: >-
+        http://res.cloudinary.com/dqgj7ufiw/image/upload/v1631458986/farm/chicken-homepage-image-2_tpu2ng.jpg
+    color: ''
+    _template: hero2
   - tagline: ''
     headline: Barnyard Organics
     text: Hello world
@@ -10,7 +20,7 @@ blocks:
         link: /posts
     image:
       src: >-
-        https://res.cloudinary.com/forestry-demo/image/upload/v1628102029/tina-cloud-starter/tina-illustration.WebP
+        http://res.cloudinary.com/dqgj7ufiw/image/upload/v1631458986/farm/chicken-homepage-image-2_tpu2ng.jpg
       alt: Tina
     color: default
     _template: hero

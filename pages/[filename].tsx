@@ -58,6 +58,22 @@ export const getStaticProps = async ({ params }) => {
                   alt
                 }
               }
+              ... on PagesBlocksHero2 {
+                tagline
+                headline
+                text
+                actions {
+                  label
+                  type
+                  icon
+                  link
+                }
+                color
+                image {
+                  src
+                  alt
+                }
+              }
             }
           }
         }
