@@ -27,7 +27,7 @@ export const Blocks = (props: Pages) => {
             case "PagesBlocksHero2":
               return (
                 <React.Fragment key={i + block.__typename}>
-                  <Hero data={block} />
+                  <Hero2 data={block} />
                 </React.Fragment>
               );
             case "PagesBlocksFeatures":
