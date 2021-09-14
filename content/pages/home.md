@@ -1,25 +1,15 @@
 ---
 blocks:
   - tagline: Here's some text above the other text
-    headline: This Big Text is Totally Awesome
+    headline: Barnyard Organics
     text: >-
       Phasellus scelerisque, libero eu finibus rutrum, risus risus accumsan
-      libero, nec molestie urna dui a leo.
-    _template: hero2
-  - tagline: ''
-    headline: Barnyard Organics
-    text: Hello world
-    actions:
-      - label: Order
-        type: button
-        icon: true
-        link: /posts
+      libero, nec molestie urna dui a leo.ads
     image:
       src: >-
         http://res.cloudinary.com/dqgj7ufiw/image/upload/v1631458986/farm/chicken-homepage-image-2_tpu2ng.jpg
-      alt: Tina
-    color: default
-    _template: hero
+      alt: sd
+    _template: hero2
   - items:
       - icon:
           color: red
