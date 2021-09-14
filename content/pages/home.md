@@ -7,8 +7,9 @@ blocks:
       libero, nec molestie urna dui a leo.ads
     image:
       src: >-
-        http://res.cloudinary.com/dqgj7ufiw/image/upload/v1631458986/farm/chicken-homepage-image-2_tpu2ng.jpg
+        http://res.cloudinary.com/dqgj7ufiw/image/upload/v1631584146/east-coast-organic-grainery-feed-bags-chicken_az5y6l.jpg
       alt: sd
+    color: ''
     _template: hero2
   - items:
       - icon:
